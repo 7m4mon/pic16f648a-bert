@@ -7,7 +7,9 @@ PICマイコン（PIC16F648A）と CCS C Compiler 4.0 を用いて作成した
 内部で生成した PN 系列（LFSR）と比較を行い、  
 ビット誤り率（BER）を測定します。
 
-本リポジトリは、当時（2008年頃）に製作したマイコンベースの測定器です。
+![Image](https://github.com/user-attachments/assets/dc1e8af1-bd4c-4652-b41c-bedc5b5b7750)  
+![Image](https://github.com/user-attachments/assets/2b11b135-4628-43e4-9b0d-6511e80ad99b)
+
 ---
 
 ## 特徴
@@ -62,7 +64,6 @@ LCD は CCS 付属の `lcd_b.c` を用い、PORTB に接続します。
 - **SW_SEL を押したまま電源 ON**  
   - クロック極性（ClockNeg）を反転
 
-※ 現場で信号極性が合わない場合の簡易調整用です。
 
 ---
 
@@ -101,12 +102,11 @@ LCD は CCS 付属の `lcd_b.c` を用い、PORTB に接続します。
 ## ライセンス
 
 MIT License  
-本ソフトウェアは無保証で提供されます。
 
 ---
 
 ## 作者
 
 - **7M4MON**
-- 作成年：2008年頃
+- 作成年：2008年9月
 
